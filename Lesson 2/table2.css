@@ -1,0 +1,45 @@
+#table1,
+#table1.tr,th,td,
+#table2,
+#table2.tr,th,td,
+#table3,
+#table3.tr,th,td,
+#table4,
+#table4.tr,th,td {
+
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table1 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#table2 {
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 800px;
+    font-size: 23px;
+}
+
+#table2 th {
+    font-weight: normal;
+}
+
+#table3 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+}
+
+#table4 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.th3 {
+    font-weight: normal;
+}
