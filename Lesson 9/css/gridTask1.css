@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Main Container --------- */
+.main-container{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- Container -------- */
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 18vh 18vh 18vh;
+}
+
+.container .a,.b,.d,.e,.f{
+    border: solid 3px black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 55, 99);
+    font-size: 2vw;
+    font-style: italic;
+}
+
+.container .a{
+    background-color: aquamarine;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.container .b{
+    background-color: rgb(196, 137, 61);
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.container .c{
+    background-color: rgb(25, 224, 68);
+    grid-row: 2/span 3;
+    grid-column: 2/ span 2;
+    height: 37.2vh;
+    border: solid 3px black;
+    display: grid;
+    justify-content: center;
+    color: rgb(25, 55, 99);
+    font-size: 2vw;
+    font-style: italic;
+}
+
+.container .c div{
+    margin-top: 6vh;
+}
+
+.container .d{
+    background-color: rgb(149, 38, 177);
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.container .e{
+    background-color: rgb(251, 127, 255);
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.container .f{
+    background-color: rgb(88, 221, 221);
+    grid-row: 3;
+    grid-column: 1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+}

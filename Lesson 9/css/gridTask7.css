@@ -1,0 +1,89 @@
+/* -------- Main container --------- */
+.main-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+/* ---------- container -------- */
+.container{
+    display: grid;
+    gap: 7px;
+    grid-template-areas:
+     "one one one one"
+     "two three three four"
+     "five three three six"
+     "five seven seven seven"
+     "eight eight eight nine"
+     ;
+     width: 45vw;
+     height: 70vh;
+}
+
+.container div{
+    border-radius: 6px;
+    font-size: 1.5vw;
+    font-style: italic;
+    display: grid;
+    justify-content: center;
+}
+
+.container .one{
+    grid-area: one;
+    background-color: palevioletred;
+}
+
+.container .two{
+    grid-area: two;
+    background-color: red;
+    align-items: center;
+}
+
+.container .three{
+    grid-area: three;
+    background-color: rgb(228, 231, 26);
+}
+
+.container .four{
+    grid-area: four;
+    background-color: red;
+    align-items: center;
+}
+
+.container .five{
+    grid-area: five;
+    background-color: rgb(218, 26, 90);
+}
+
+.container .six{
+    grid-area: six;
+    background-color: rgb(29, 132, 192);
+    align-items: center;
+}
+
+.container .seven{
+    grid-area: seven;
+    background-color: orange;
+    align-items: center;
+}
+
+.container .eight{
+    grid-area: eight;
+    background-color: rgb(85, 17, 173);
+    align-items: center;
+}
+
+.container .nine{
+    grid-area: nine;
+    background-color: rgb(228, 231, 26);
+    align-items: center;
+}
+
+a{
+    margin-top: 10vh;
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+}
+
