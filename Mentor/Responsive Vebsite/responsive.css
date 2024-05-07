@@ -1,0 +1,45 @@
+@media (max-width:480px) {
+    header .about span:first-child {
+        display: none;
+    }
+    header .container {
+        justify-content: space-around;
+    }
+    header .container .about {
+        margin: unset;
+    }
+    header nav #main-container .about-vebsite {
+        display: none;
+    }
+    header nav #main-container .logo {
+        margin: inherit;
+    }
+    header nav #main-container .drop-down {
+        display: block;
+    }
+
+    /* --------------- Section ------------ */
+    #main-container-2,
+    #main-container-3 {
+        align-items: center;
+        flex-direction: column;
+    }
+    #main-container-2 .bg-color {
+        margin: 0 0 40px 0;
+    }
+    #main-container-3 {
+        margin-top: 0 !important;
+    }
+    #main-container-3 .bg-color {
+        margin: 0 0 40px 0;
+    }
+    footer #main-container-4 {
+        flex-direction: column;
+    }
+    footer #main-container-5 {
+        flex-direction: column;
+    }
+    footer #main-container-5 .icons10 {
+        margin-top: 35px;
+    }
+}
