@@ -151,7 +151,7 @@ video {
     font-size: 1.2vw;
 }
 
-/* --------------- Section 2 (Problem burdadır-position:sticky işləmir) -------------- */
+/* --------------- Section 2 (here is the problem) -------------- */
 .section-2 {
     position: sticky !important;
     top: 0;
