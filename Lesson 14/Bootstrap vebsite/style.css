@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+a {
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+header nav .col-5 a:hover {
+    color: rgb(245, 183, 40) !important;
+}
+
+header {
+    background-image: url(imgs/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 899px;
+}
+
+.bg-text h4 {
+    font-size: 45px;
+}
+
+.bg-text h1 {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.bg-text {
+    margin-top: 130px;
+}
+
+.btn-warning {
+    width: 180px;
+    margin: 0 auto 0 auto;
+}
+
+/* ----------- Services and Portfolio -------- */
+.services {
+    margin-top: 150px;
+}
+
+.services .services-row1 {
+    margin-top: 80px;
+}
+
+.portfolio {
+    margin-top: 200px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9 {
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.portfolio .img-1:hover,
+.img-2:hover,
+.img-3:hover,
+.img-4:hover,
+.img-5:hover,
+.img-6:hover {
+    transform: scale(1.09);
+}
+
+.img-7:hover,
+.img-8:hover,
+.img-9:hover {
+    transform: scale(0.92);
+}
+
+
+/* ---------- Icon-1 --------- */
+.icon1 {
+    border-radius: 70px;
+    padding: 50px 25px 30px 25px;
+}
+
+.icon1 i {
+    font-size: 50px;
+}
+
+/* ---------- Icon-2 ----------- */
+.icon2 {
+    border-radius: 70px;
+    padding: 50px 25px 30px 25px;
+}
+
+.icon2 i {
+    font-size: 50px;
+}
+
+/* ----------- Icon-3 ----------- */
+.icon3 {
+    border-radius: 70px;
+    padding: 50px 30px 30px 30px;
+}
+
+.icon3 i {
+    font-size: 50px;
+}
+
+/* ----------- Section tree ------- */
+.section3 {
+    margin-top: 190px;
+}
+
+.section3-row div {
+    border-radius: 200px;
+}
+
+.section3-row div img {
+    border-radius: 200px;
+}
+
+.section3-row {
+    margin-top: 50px;
+}
+
+/* ----------- Icons-1 (OUR AMAZING TEAM) ---------- */
+.section3-row .icons1 span:nth-child(1) {
+    padding: 15px 17px 15px 17px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons1 span:nth-child(2) {
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons1 span:nth-child(3) {
+    padding: 15px 19px 15px 19px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons1 span:hover {
+    background-color: gray !important;
+}
+
+/* ----------- Icons-2 (OUR AMAZING TEAM) ---------- */
+.section3-row .icons2 span:nth-child(1) {
+    padding: 15px 17px 15px 17px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons2 span:nth-child(2) {
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons2 span:nth-child(3) {
+    padding: 15px 19px 15px 19px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons2 span:hover {
+    background-color: gray !important;
+}
+
+
+/* ----------- Icons-3 (OUR AMAZING TEAM) ---------- */
+.section3-row .icons3 span:nth-child(1) {
+    padding: 15px 17px 15px 17px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons3 span:nth-child(2) {
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons3 span:nth-child(3) {
+    padding: 15px 19px 15px 19px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.section3-row .icons3 span:hover {
+    background-color: gray !important;
+}
+
+.text-1 {
+    margin-top: 230px;
+}
+
+/* ------------- Section4 and section5 ------------ */
+.section4 {
+    margin-top: 280px;
+}
+
+.section4 .img-10,
+.img-11,
+.img-12,
+.img-13 {
+    cursor: pointer;
+}
+
+.section5 {
+    background-image: url(imgs/map-image.png);
+    background-color: rgb(23, 23, 23);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 700px; */
+}
+
+.section5 h1 {
+    position: relative;
+    top: 120px;
+}
+
+.section5 p {
+    margin-top: 130px;
+}
+
+.btn2 {
+    width: 250px;
+}
+
+.icons4 span:nth-child(1) {
+    padding: 15px 17px 15px 17px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.icons4 span:nth-child(2) {
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.icons4 span:nth-child(3) {
+    padding: 15px 19px 15px 19px;
+    border-radius: 30px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.icons4 span:hover {
+    background-color: gray !important;
+}
