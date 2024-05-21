@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Nexus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- -------------- Header --------------- -->
+    <header id="home">
+        <div class="container-fluid p-4">
+            <nav>
+                <div class="row">
+                    <div class="col-4 text-center p-3">
+                        <img src="imgs/logo.jpg" class="img-fluid" style="width: 70px" alt="logoImg" />
+                    </div>
+                    <div class="col-4 text-center p-3 about-navbar d-none d-xl-block">
+                        <a href="#home" class="fw-bold">HOME</a>
+                        <a href="#about" class="ms-4 fw-bold">ABOUT</a>
+                        <a href="#services" class="ms-4 fw-bold">SERVICES</a>
+                        <a href="#price" class="ms-4 fw-bold">PAGES</a>
+                        <a href="#blog" class="ms-4 fw-bold">BLOG</a>
+                        <a href="#contact" class="ms-4 fw-bold">CONTACT</a>
+                    </div>
+
+                    <!-- --------------- Burger ----------------- -->
+                    <nav class="navbar d-xl-none col-6 d-flex justify-content-end">
+                        <button class="navbar-toggler bg-white my-button2" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-center" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Nexus</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">ABOUT</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#services">SERVICES</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#pages">PAGES</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#blog">BLOG</a>
+                                        <hr>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <button class="col-4 btn me-auto ms-auto p-3 border-white text-white d-none d-xl-block my-button">
+                        Free Trial
+                    </button>
+                </div>
+            </nav>
+            
+            <!-- ------ Mass People Oriented Sofware ------- -->
+            <div class="row text-center text-xl-start ms-auto me-auto d-flex justify-content-xl-center align-items-center h-75 ms-lg-5 row2">
+                <div class="col-12 col-xl-5 ms-lg-5">
+                    <h1 class="text-white fw-bold">
+                        Mass People <br class="d-none d-xl-block" />
+                        Oriented Sofware
+                    </h1>
+                    <p class="text-white mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br class="d-none d-lg-block"> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do <br class="d-none d-lg-none"> eiusmod tempor incididunt.
+                    </p>
+                    <button class="col-12 btn btn2 border-white p-3 me-2 text-white mt-4">
+                        Get Started
+                    </button>
+                    <button class="col-12 btn btn3 border-white p-3 fw-bold mt-4">Download</button>
+                </div>
+                <div class="col-xl-5 d-none d-xl-block">
+                    <img src="imgs/leptop.jpg" style="width: 580px;" alt="leptopImg" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------- Section-1 ----------- -->
+    <section class="section-1" id="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="fw-bold">HOW IT WORK FOR YOU</h1>
+                    <p class="text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+                        maxime tenetur facere nulla? <br> Unde et nostrum inventore labore, quaerat adipisci iusto a
+                        dolorum vero aperiam repellendus eligendi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container container-two">
+            <div class="row text-center d-flex justify-content-around">
+                <!-- ------- Stunning Visuals 1 --------- -->
+                <div class="col-12 col-lg-4">
+                    <div class="text">
+                        <span class="icon-1 rounded-3"><i class="fa-solid fa-tv fs-4"></i></span>
+                        <h4 class="mt-5">Stunning Visuals</h4>
+                    </div>
+                    <p class="text-body-secondary">Here, I focus on a range of items and features that we use in life
+                        without giving them a second thought such as Coca Cola.</p>
+                </div>
+
+                <!-- ------- Stunning Visuals 2 --------- -->
+                <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+                    <div class="text">
+                        <span class="icon-2 rounded-3"><i class="fa-solid fa-code fs-4"></i></span>
+                        <h4 class="mt-5">Stunning Visuals</h4>
+                    </div>
+                    <p class="text-body-secondary">Here, I focus on a range of items and features that we use in life
+                        without giving them a second thought such as Coca Cola.</p>
+                </div>
+
+                <!-- ------- Stunning Visuals 3 --------- -->
+                <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+                    <div class="text">
+                        <span class="icon-3 rounded-3"><i class="fa-regular fa-clock fs-4"></i></span>
+                        <h4 class="mt-5">Stunning Visuals</h4>
+                    </div>
+                    <p class="text-body-secondary">Here, I focus on a range of items and features that we use in life
+                        without giving them a second thought such as Coca Cola.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------- Section-2 ------------ -->
+    <section class="section-2" id="about">
+        <div class="container">
+            <!-- ------- Buttons group ------- -->
+            <div class="row">
+                <ul class="nav nav-pills ms-5" id="pills-tab" role="tablist">
+                    <li class="col-6 col-md-3">
+                        <button class="nav-link p-3 w-75 active text-black" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">EASY TO <br class="d-lg-none"> USE</button>
+                    </li>
+                    <li class="col-6 col-md-3">
+                        <button class="nav-link p-3 w-75 text-black" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">UNLIMATED COLORS</button>
+                    </li>
+                    <li class="col-6 col-md-3">
+                        <button class="nav-link p-3 w-75 text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">UNIQUE FEATURES</button>
+                    </li>
+                    <li class="col-6 col-md-3">
+                        <button class="nav-link p-3 w-75 text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">UNIQUE FEATURES</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-lg-6 p-5 mt-2">
+                    <h2 class="fw-bold">We’ve made a life <br>
+                        that will change you</h2>
+                    <h6 class="fw-bold mt-4">We are here to listen from you deliver exellence</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    <button class="btn p-3 text-white mt-2" id="button">Get Started Now</button>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="imgs/chart.jpg.webp" class="img-fluid" alt="#">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------ Section-3 -------------- -->
+    <section class="section-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="fw-bold">UNIQUE SCREENS THAT WORK PERFECTLY</h1>
+                    <p class="mt-3 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation.</p>
+                    <img src="imgs/leptop.jpg" class="img-fluid mt-4" alt="leptopImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------ Section-4 ------------ -->
+    <section class="section-4" id="pages">
+        <div class="container">
+            <div class=row>
+                <div class="col-12 col-lg-6 p-5">
+                    <h2 class="fw-bold">We’ve made a life <br>
+                        that will change you</h2>
+                    <h6 class="fw-bold mt-4">We are here to listen from you deliver exellence</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim.
+                    </p>
+                    <button class="btn p-3 text-white mt-2" id="button2">Get Started Now</button>
+                </div>
+                <div class="col-12 col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="imgs/browser.png.webp" class="img-fluid" alt="browserImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- Section-5 ---------------- -->
+    <section class="section-5" id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bold">CHOOSE YOUR PRICE PLAN</h1>
+                    <p class="text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation.</p>
+                </div>
+            </div>
+            <div class="row prices">
+                <!-- -------- Prices-1 ------- -->
+                <div class="col-12 col-lg-4 text-center my-prices">
+                    <h5 class="fw-bold p-5 rounded-3 w-75 ms-auto me-auto">Real <br class="d-none d-lg-block d-xl-none"> Basic</h5>
+                    <p class="text-body-secondary lh-lg mt-5">2.5 GB Space <br>
+                        Secure Online Transfer <br>
+                        Unlimited Styles <br>
+                        Customer Service
+                    </p>
+                    <div class="mt-5 p-4 prices1 ms-auto me-auto rounded-3">
+                        <span><sup class="fs-1">$ </sup><span class="fw-bold number1">39</span><span
+                                class="text-body-secondary per-month ms-3">Per Month</span></span> <br>
+                        <button class="btn p-3 text-white bg-info mt-2" id="button3">Get Started Now</button>
+                    </div>
+                </div>
+
+                <!-- -------- Prices-2 ------- -->
+                <div class="col-12 col-lg-4 text-center my-prices mt-5 mt-lg-0">
+                    <h5 class="fw-bold p-5 ms-auto me-auto w-75 rounded-3">Real Standard</h5>
+                    <p class="text-body-secondary lh-lg mt-5">10 GB Space <br>
+                        Secure Online Transfer <br>
+                        Unlimited Styles <br>
+                        Customer Service
+                    </p>
+                    <div class="mt-5 p-4 prices1 ms-auto me-auto rounded-3">
+                        <span><sup class="fs-1">$ </sup><span class="fw-bold number1">69</span><span
+                                class="text-body-secondary per-month ms-3">Per Month</span></span> <br>
+                        <button class="btn p-3 text-white bg-info mt-2" id="button3">Get Started Now</button>
+                    </div>
+                </div>
+
+                <!-- -------- Prices-3 ------- -->
+                <div class="col-12 col-lg-4 text-center my-prices mt-5 mt-lg-0">
+                    <h5 class="fw-bold p-5 ms-auto me-auto w-75 rounded-3">Real Ultimate</h5>
+                    <p class="text-body-secondary lh-lg mt-5">Unlimited Space <br>
+                        Secure Online Transfer <br>
+                        Unlimited Styles <br>
+                        Customer Service
+                    </p>
+                    <div class="mt-5 p-4 prices1 ms-auto me-auto rounded-3">
+                        <span><sup class="fs-1">$ </sup><span class="fw-bold number1">99</span><span
+                                class="text-body-secondary per-month ms-3">Per Month</span></span> <br>
+                        <button class="btn p-3 text-white bg-info mt-2" id="button3">Get Started Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------- Section-6 ------------ -->
+    <section class="section-6" id="blog">
+        <div class="container">
+            <!-- -------- Feedback From Customers -------- -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bold">FEEDBACK FROM CUSTOMERS</h1>
+                    <p class="text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!-- ----------- Card-1 ------------- -->
+            <div class="row d-flex justify-content-around cards">
+                <div class="col-12 col-md-5 ms-md-5">
+                    <div class="row img-row1 p-3">
+                        <div class="col-2">
+                            <img src="imgs/testi-1.png.webp" class="img-fluid" alt="#">
+                        </div>
+                        <div class="col-8">
+                            <p class="text-body-secondary">Accessories Here you can find the best computer accessory for
+                                your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                            <h4>Mark Alviro Wiens</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ----------- Card-2 ------------- -->
+                <div class="col-12 col-md-5 mt-5 mt-md-0 ms-md-5">
+                    <div class="row img-row2 p-3">
+                        <div class="col-2">
+                            <img src="imgs/testi-2.png.webp" class="img-fluid" alt="#">
+                        </div>
+                        <div class="col-8">
+                            <p class="text-body-secondary">Accessories Here you can find the best computer accessory for
+                                your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                            <h4>Mark Alviro Wiens</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------ Section-7 ----------- -->
+    <section class="section-7">
+        <div class="container">
+            <div class=row>
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="imgs/leptop.jpg" style="width: 600px;" class="img-fluid" alt="browserImg">
+                </div>
+
+                <div class="col-12 col-lg-6 p-5">
+                    <h2 class="fw-bold">We’ve made a life <br>
+                        that will change you</h2>
+                    <h6 class="fw-bold mt-4">We are here to listen from you deliver exellence</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim.
+                    </p>
+                    <button class="btn p-3 text-white mt-3" id="button4">Get Started Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- Section-8 ---------- -->
+    <section class="section-8 p-4">
+        <div class="container p-5">
+            <div class="row text-center p-5">
+                <div class="col-12 p-3">
+                    <h1 class="fw-bold text-white">Got Impressed to our features?</h1>
+                    <p class="mt-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. <br class="d-none d-lg-block"> Ut enim ad minim veniam, quis nostrud
+                        exercitation.</p>
+                    <button class="btn border-white p-3 mt-4 bg-white">Request Free Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="bg-black p-5" id="contact">
+        <div class="container p-5">
+            <div class="row d-flex justify-content-around">
+                <div class="col-12 col-md-6 col-lg-3 ms-lg-5 about-me">
+                    <h5 class="text-white fw-bold">About Me</h5>
+                    <p class="text-white-50 mt-5">Do you want to be even more successful? Learn to love learning and
+                        growth. The more effort you put into improving your skills,</p>
+                    <p class="text-white-50 mt-4">Copyright ©2024 All rights reserved | This template is made with by
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-4 mt-md-0 ms-lg-5 newsletter">
+                    <h5 class="text-white fw-bold">Newsletter</h5>
+                    <p class="text-white-50 mt-5">Stay updated with our latest trends</p>
+                    <form action="#"><input class="p-2" type="text" placeholder="Email Address"> <button
+                            class="bg-info text-white p-2 border-info">-></button></form>
+                </div>
+                <div class="col-12 col-lg-3 mt-5 mt-lg-0 ms-lg-5 follow-me">
+                    <h5 class="text-white fw-bold">Follow Me</h5>
+                    <p class="text-white-50 mt-5">Let us be social</p>
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                    <i class="fa-brands fa-twitter mx-2 text-white"></i>
+                    <i class="fa-solid fa-basketball text-white"></i>
+                    <i class="fa-brands fa-behance mx-2 text-white"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

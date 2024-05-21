@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+/* ------------- Header ----------- */
+header .container-fluid {
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(117, 208, 233));
+    width: 100vw;
+    height: 700px;
+}
+header .container-fluid nav .my-button {
+    width: 150px !important;
+    background-color: rgba(123, 211, 235);
+}
+header .container-fluid .btn2 {
+    width: 150px !important;
+    background-color: rgba(123, 211, 235);
+}
+header .container-fluid .btn3 {
+    width: 150px !important;
+    background-color: white;
+}
+header .container-fluid nav button:hover {
+    background-color: white;
+    color: black !important;
+}
+header .container-fluid .btn2:hover {
+    background-color: white;
+    color: black  !important;
+}
+header .container-fluid .btn3:hover {
+    background-color: rgba(123, 211, 235);
+    color: white;
+}
+header .container-fluid nav .about-navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/* ------------ Section-1 ---------- */
+.section-1{
+    margin-top: 150px;
+}
+.section-1 .container-two{
+    margin-top: 120px;
+}
+.section-1 .container-two .icon-1,.icon-2, .icon-3{
+    padding: 30px 30px 25px 30px;
+}
+.section-1 .container-two .row .text:hover span{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+    color: white;
+}
+.section-1 .container-two .row .text:hover h4{
+    color: rgb(44, 195, 237);
+}
+
+/* ------------ Section-2 and Section-3 ---------- */
+.section-2{
+    margin-top: 290px;
+}
+.section-2 .container .row li button:focus{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+    color: white !important;
+}
+.section-2 .container .row #button{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+}
+.section-2 .container .row #button:hover{
+    background-image: linear-gradient(to left, rgb(0, 170, 255), rgb(142, 219, 240));
+}
+.section-3{
+    margin-top: 200px;
+}
+
+/* --------------- Section-4 and Section-5 ---------------- */
+.section-4{
+    margin-top: 240px;
+}
+.section-4 .container .row #button2{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+}
+.section-5{
+    margin-top: 220px;
+}
+.section-5 .number1{
+    font-size: 60px;
+}
+.section-5 .per-month{
+    display: inline-block;
+    width: 20px;
+}
+.section-5 .prices{
+    margin-top: 100px;
+}
+.section-5 .prices .prices1{
+    width: 250px;
+}
+.section-5 .prices .my-prices:hover h5{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+    color: white;
+}
+.section-5 .prices .my-prices:hover #button3{
+    background-color: white  !important;
+    color: black !important;
+}
+.section-5 .prices .my-prices:hover .prices1{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+    color: white !important;
+    .per-month{
+        color: white !important;
+    }
+}
+
+/* ------------- Section-6 and Section-7 ----------- */
+.section-6{
+    margin-top: 280px;
+}
+.section-6 .cards{
+    margin-top: 150px;
+}
+.section-6 .img-row1{
+    transition: all 400ms;
+    cursor: pointer;
+}
+.section-6 .img-row1 h4{
+    transition: all 400ms;
+}
+.section-6 .img-row2{
+    transition: all 400ms;
+    cursor: pointer;
+}
+.section-6 .img-row2 h4{
+    transition: all 400ms;
+}
+.section-6 .img-row1:hover,.section-6 .img-row2:hover {
+    box-shadow: 5px 10px 18px #888888;
+}
+.section-6 .img-row1:hover h4,.section-6 .img-row2:hover h4{
+    color: rgb(44, 195, 237);
+}
+.section-7{
+    margin-top: 300px;
+}
+.section-7 .container .row #button4{
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+}
+
+/* ----------- Section-8 ---------- */
+.section-8{
+    margin-top: 120px;
+    background-image: linear-gradient(to right, rgb(0, 170, 255), rgb(142, 219, 240));
+}
+.section-8 button{
+    font-weight: 500;
+ }
+.section-8 button:hover{
+   background-color: rgb(104, 215, 245) !important;
+   color: white;
+   font-weight: 500;
+}
+
+/* ------------- Footer ------------ */
+footer .about-me p:nth-child(2), footer .about-me p:nth-child(3){
+    font-size: 14px;
+}
+footer .newsletter p:nth-child(2){
+    font-size: 14px;
+}
+footer .follow-me p:nth-child(2){
+    font-size: 14px;
+}
+footer .follow-me i:hover{
+    color: aqua !important;
+    cursor: pointer;
+}
