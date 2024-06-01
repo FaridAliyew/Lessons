@@ -14,5 +14,5 @@ const myFunc = () => {
     console.log(length);
 }
 
-// const text niyə işlədiki burda? block scope ola ola??
+
 
