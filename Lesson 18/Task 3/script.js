@@ -4,8 +4,8 @@
 
 
 function myFunc(text) {
-    const cavab = text.toLowerCase().startsWith("m");
-    if (cavab == true) {
+    const isStartM = text.toLowerCase().startsWith("m");
+    if (isStartM) {
         return text.repeat(3);
     }
     return "Bu söz m-hərfi ilə başlamır.."
