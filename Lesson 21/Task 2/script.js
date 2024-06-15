@@ -1,7 +1,4 @@
 let button = document.querySelector("button");
-
-
-
 button.style.padding = "20px"
 button.style.backgroundColor = "yellow"
 button.style.color = "blue"
