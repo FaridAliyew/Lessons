@@ -1,0 +1,95 @@
+section {
+    display: grid;
+    justify-content: center;
+}
+
+section .addTodo {
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(185, 77, 56), rgb(252, 240, 5));
+}
+
+section .addTodo h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+section .addTodo button {
+    background-color: rgb(29, 196, 107);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section .addTodo #addInput {
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+}
+
+section .addTodo #addInput:focus {
+    outline: none;
+}
+
+/* Search Todo */
+section .searchTodo {
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    margin-top: 30px;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(54, 153, 196), rgb(35, 50, 192));
+    border-radius: 30px;
+}
+
+section .searchTodo #searchInput{
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+}
+
+section .searchTodo #searchInput:focus {
+    outline: none;
+}
+
+section .searchTodo h1 {
+    text-align: center;
+}
+
+section .searchTodo button {
+    background-color: rgb(29, 196, 107);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section .searchTodo form ol li {
+    /* border: solid 2px black; */
+    margin-top: 10px;
+    margin-left: -40px;
+    background-color: rgb(236, 240, 227);
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.myLi {
+    /* display: inline; */
+}
+
+.fa-trash {
+    position: relative;
+    left: 250px;
+    bottom: 19px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
