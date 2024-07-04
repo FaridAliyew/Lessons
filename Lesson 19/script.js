@@ -1,6 +1,6 @@
 // ------- Task 1 -------
 // ● Yalnız ədədlərdən ibarət iki array yazın
-// ● Buikiarrayı yeni bir array-də birləşdirin.
+// ● Bu iki arrayı yeni bir array-də birləşdirin.
 // ● Əgər,yeni yaranmış array-in hər bir elementinin uzunluğu 5-ə bərabərdirsə, “successful validation” mesajı çıxsın. Əks halda “error, the length of the elements is not equal to five” mesajını göstərin.
 // ● Nəticəni console-a və ya ekrana çıxarın
 
@@ -10,7 +10,7 @@ const arrayTwo = [12456, 24780, 48234];
 
 const myFunc = (newArr1, newArr2) => {
     const newArray = arrayOne.concat(arrayTwo);
-    const length = newArray.every(el => el.toString().length === 5);
+    const length = newArray.every(el => el.toString().length == 5);
 
     if (length) {
         return "successful validation";
@@ -30,12 +30,13 @@ console.log(cavab);
 // ● Nəticəni console-a və ya ekrana çıxarın
 
 // let person = ["Dadaş", "Qəzənfər", "Kazım", "Ağakərim"];
-// let newArray = [];
-// person.forEach(el => {
-//     newArray.push("Hello" + " " + el)
+// // let newArray = [];
+// person.forEach((el, index) => {
+//     // newArray.push("Hello" + " " + el)
+//     person[index] = "hello " + el; 
 // })
 
-// console.log(newArray);
+// console.log(person);
 
 // --------------
 // let x = person.map(el => "Hello" + el);
@@ -69,11 +70,11 @@ console.log(cavab);
 // ● Daha sonra bu array-i kiçikdən böyüyə doğru sıralayın
 // ● Nəticəni console-a və ya ekrana çıxarın
 
-// let nums = [12, 34, 46, 67, 89];
-// let topla = nums.reduce((total, number) => total + number);
-// let cix = nums.reduce((total, number) => total - number);
-// let push = nums.push(topla, cix);
-// let map = nums.sort((a, b) => a - b);
+// const nums = [12, 34, 46, 67, 89];
+// const topla = nums.reduce((total, number) => total + number);
+// const cix = nums.reduce((total, number) => total - number);
+// const push = nums.push(topla, cix);
+// const map = nums.sort((a, b) => a - b);
 
 // console.log(map);
 
