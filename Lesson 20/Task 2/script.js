@@ -10,7 +10,8 @@ for (let i = 0; i < array.length; i++) {
     }   
 }
 
-// let i = -1;
+
+// let i = 0;
 // while (i < array.length) {
 //     i++;
 //     if (array[i] == "Matrix") {
