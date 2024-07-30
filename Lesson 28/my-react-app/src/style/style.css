@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  scrollbar-width: thin;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.text-one {
+  font-size: 1.5rem;
+}
+
+.text-two {
+  font-size: 3rem;
+}
+
+.header {
+  background-image: url("../imgs/header-bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .navbar-brand {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffc800 !important;
+}
+.header .row .text-one {
+  font-size: 40px;
+  margin-top: 190px;
+  font-style: italic;
+}
+.header .row .text-two {
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header .row .my-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+.header .row li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.services {
+  margin-top: 50px;
+}
+.services .my-services {
+  margin-top: 90px;
+}
+.services .my-services span {
+  background-color: rgb(255, 200, 0);
+  padding: 40px 21px 40px 20px;
+  border-radius: 50%;
+}
+.services .my-services span .basket {
+  font-size: 70px;
+}
+.services .my-services span .laptop {
+  font-size: 70px;
+}
+.services .my-services span .lock {
+  font-size: 70px;
+}
+
+.portfolio {
+  margin-top: 190px;
+}
+
+.about {
+  margin-top: 180px;
+}
+.about .about-container-1 {
+  margin-top: 50px;
+}
+.about .about-container-1 img {
+  width: 160px;
+}
+.about .about-container-1 .text {
+  position: relative;
+  left: 70px;
+  width: 30vw;
+}
+.about .about-container-1 .text p {
+  font-size: 18px;
+}
+.about .about-container-2 {
+  margin-top: 50px;
+}
+.about .about-container-2 img {
+  width: 160px;
+}
+.about .about-container-2 .text {
+  position: relative;
+  left: 70px;
+  width: 30vw;
+}
+.about .about-container-2 .text p {
+  font-size: 18px;
+}
+
+.team {
+  margin-top: 130px;
+}
+.team .container .teams {
+  margin-top: 85px;
+}
+.team .container .team1 {
+  background-color: rgb(181, 181, 181);
+  padding: 10px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.team .container .team1 img {
+  border-radius: 50%;
+}
+.team .container .team2 {
+  background-color: rgb(181, 181, 181);
+  padding: 10px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.team .container .team2 img {
+  border-radius: 50%;
+}
+.team .container .team3 {
+  background-color: rgb(181, 181, 181);
+  padding: 10px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.team .container .team3 img {
+  border-radius: 50%;
+}
+.team .container span {
+  background-color: black;
+  margin-right: 10px;
+  padding: 7px 10px 10px 11px;
+  border-radius: 50%;
+}
+.team .container .img-brand {
+  height: 2.75rem;
+  margin: 0 auto;
+  display: block;
+}
+.team .container .logos {
+  margin-top: 200px;
+}
+
+.contactUs {
+  background-image: url("../imgs/map-image.png");
+  background-color: #212529;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contactUs .text {
+  margin-top: 100px;
+}
+.contactUs input {
+  padding: 20px;
+  border-radius: 10px;
+}
+.contactUs .btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+
+.footer .my-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer span.icon {
+  background-color: black;
+  margin-right: 10px;
+  padding: 7px 10px 10px 11px;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
