@@ -6,9 +6,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import { BiLogoLinkedin } from "react-icons/bi";
 
-
-
-
 function Team() {
     return (
         <>
@@ -21,8 +18,6 @@ function Team() {
                         </div>
                     </div>
 
-
-                    {/* ------ team ------- */}
                     <div className='row text-center teams'>
                         <div className='col-12 mb-5 mb-lg-0 col-lg-4'>
                             <div className='team1 mb-4'>
@@ -62,8 +57,6 @@ function Team() {
                         </div>
                     </div>
 
-
-                    {/* --------- microsoft -------- */}
                     <div className='row logos'>
                         <div className='col-12 col-md-3'>
                             <img className="img-fluid mx-auto img-brand" width={250} src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/microsoft.svg" alt="..."  />
