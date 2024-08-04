@@ -72,38 +72,6 @@ body {
   margin-top: 190px;
 }
 
-.about {
-  margin-top: 180px;
-}
-.about .about-container-1 {
-  margin-top: 50px;
-}
-.about .about-container-1 img {
-  width: 160px;
-}
-.about .about-container-1 .text {
-  position: relative;
-  left: 70px;
-  width: 30vw;
-}
-.about .about-container-1 .text p {
-  font-size: 18px;
-}
-.about .about-container-2 {
-  margin-top: 50px;
-}
-.about .about-container-2 img {
-  width: 160px;
-}
-.about .about-container-2 .text {
-  position: relative;
-  left: 70px;
-  width: 30vw;
-}
-.about .about-container-2 .text p {
-  font-size: 18px;
-}
-
 .team {
   margin-top: 130px;
 }
