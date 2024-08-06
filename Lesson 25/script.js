@@ -19,6 +19,7 @@
 async function FetchApi(params) {
     try {
         const response = await fetch("https://jsonplaceholder.typicode.com/users");
+        console.log(response);
         if (response == false) {
             console.log("Sehviniz var");
         }
