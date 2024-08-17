@@ -35,7 +35,6 @@ body {
 }
 .container .todo-container .ol-list ol {
   padding: 0;
-  list-style: none;
   width: 350px;
 }
 .container .todo-container .ol-list ol li {

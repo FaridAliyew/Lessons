@@ -29,7 +29,7 @@ function TodoAdd() {
                 }).then((result) => {
                     setValue('');
                 }).catch((err) => {
-                    console.error("Add element error:", err.response ? err.response.data : err);
+                    console.error("Add element error:");
                 });
     }
 

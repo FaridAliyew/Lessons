@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { MdDelete, MdDarkMode } from "react-icons/md";
 import { FaPencil } from "react-icons/fa6";
 import { GiConfirmed } from "react-icons/gi";
 import { useNavigate } from 'react-router-dom';
 import { Ring } from '@uiball/loaders';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Button } from 'react-bootstrap';
+import { DarkModeContext } from '../App';
 
 function Todo() {
     const [data, setData] = useState([]);
@@ -14,7 +14,7 @@ function Todo() {
     const [selectedId, setSelectedId] = useState(null);
     const [updatedValue, setUpdatedValue] = useState("");
     const [sucess, setSucess] = useState([]);
-    const [darkMode, setDarkMode] = useState(false); 
+    const { darkMode, setDarkMode } = useContext(DarkModeContext);
     const apiKey = process.env.REACT_APP_KEY;
     const baseUrl = process.env.REACT_APP_BASE_URL;
     const navigate = useNavigate();
@@ -61,21 +61,28 @@ function Todo() {
         }).then(() => {
             setData(data.filter(el => el.id !== id));
         }).catch((err) => {
-            console.error("Delete error:", err.response ? err.response.data : err);
+            console.error("Delete error:", err);
         });
     }
 
-    const confirmed = (id) => {
-        let updatedSucess;
+    const confirmed = (id, currentStatus) => {
+        const newStatus = !currentStatus;
 
-        if (sucess.includes(id)) {
-            updatedSucess = sucess.filter(itemId => itemId !== id);
-        } else {
-            updatedSucess = [...sucess, id];
-        }
-
-        setSucess(updatedSucess);
-        localStorage.setItem('confirmedItems', JSON.stringify(updatedSucess));
+        axios.patch(`${baseUrl}?id=eq.${id}`, {
+            is_confirmed: newStatus
+        }, {
+            headers: {
+                apikey: apiKey,
+                Authorization: `Bearer ${apiKey}`
+            }
+        })
+        .then(() => {
+            setSucess(newStatus ? [...sucess, id] : sucess.filter(itemId => itemId !== id));
+            myData();
+        })
+        .catch((err) => {
+            console.error("Update error:", err);
+        });
     }
 
     const openModal = (id, currentValue) => {
@@ -102,7 +109,7 @@ function Todo() {
                     setShowModal(false);
                 })
                 .catch((err) => {
-                    console.error("Update error:", err.response ? err.response.data : err);
+                    console.error("Update error:", err);
                 });
         }
     }
@@ -128,12 +135,12 @@ function Todo() {
                         {data.length > 0 ? (
                             data.map((el) => (
                                 el && el.item ? (
-                                    <li key={el.id} className={sucess.includes(el.id) ? "line-through" : ""}>
+                                    <li key={el.id} className={el.is_confirmed ? "line-through" : ""}>
                                         {el.item}
                                         <div>
                                             <FaPencil className='pen' onClick={() => openModal(el.id, el.item)} />
                                             <MdDelete className='deleted' onClick={() => deleted(el.id)} />
-                                            <GiConfirmed className='confirmed' onClick={() => confirmed(el.id)} />
+                                            <GiConfirmed className='confirmed' onClick={() => confirmed(el.id, el.is_confirmed)} />
                                         </div>
                                     </li>
                                 ) : null
