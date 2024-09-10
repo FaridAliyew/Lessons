@@ -228,3 +228,6 @@ button:hover {
 }
 
 
+.error-msg{
+    color: red;
+}
