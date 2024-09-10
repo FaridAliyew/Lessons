@@ -17,12 +17,12 @@ function Login({ setToken }) {
         password: ""
     });
 
-    const [loginError, setLoginError] = useState(""); // Giriş zamanı error mesajı üçün state
+    const [loginError, setLoginError] = useState(""); 
 
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        tailChase.register();  // Spinner-i qeydiyyatdan keçirmək üçün istifadə edirik
+        tailChase.register();  
     }, []);
 
     const handleChange = (e) => {
@@ -33,13 +33,12 @@ function Login({ setToken }) {
             }
         });
 
-        // Erroru form field dəyişən zaman təmizləyirik
         setErrors((prevErrors) => ({
             ...prevErrors,
             [e.target.name]: ""
         }));
 
-        setLoginError(""); // İstifadəçi yeni məlumat yazdıqca səhv mesajını təmizləyirik
+        setLoginError(""); 
     }
 
     const validateForm = () => {
@@ -111,7 +110,7 @@ function Login({ setToken }) {
                         value={formData.password}
                     />
                     {errors.password && <div className='error-msg'>{errors.password}</div>}
-                    {loginError && <div className='error-msg'>{loginError}</div>} {/* Giriş zamanı səhv mesajı */}
+                    {loginError && <div className='error-msg'>{loginError}</div>} 
 
                     <br />
                     <button type='submit' disabled={loading}>
