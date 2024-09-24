@@ -1,0 +1,37 @@
+/* Ümumi stil */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* App konteyneri */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Başlıq stili */
+.App-header {
+  background-color: #282c34;
+  padding: 40px;
+  color: white;
+}
+
+/* Məhsul siyahısı */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Hər bir məhsulun elementi */
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  transition: 0.3s;
+  color: #282c34;
+}
