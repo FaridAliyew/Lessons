@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+}
+
+/*--------------- Navbar -------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    position: fixed;
+    background-color: white;
+    width: 92vw;
+    top: 0;
+    z-index: 1;
+}
+
+/* ------------- all-a-tag ------------- */
+div a {
+    text-decoration: none;
+}
+
+/* ----------- Name Websites ------------- */
+.name-websites {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+span {
+    color: red;
+}
+
+/* -------------- Container 2, 3 ----------- */
+.container2 {
+    margin-left: 2vw;
+}
+
+.container2 a:first-child {
+    margin: 0 1.3vw;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container3 a {
+    color: white;
+    background-color: rgb(192, 7, 7);
+    padding: 10px 17px;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.about:hover,
+.menu:hover,
+.events:hover,
+.chefs:hover,
+.gallery:hover,
+.drop-down:hover,
+.contact:hover {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+.home {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+.about,
+.menu,
+.events,
+.chefs,
+.gallery,
+.drop-down,
+.contact {
+    margin: 0 1.3vw;
+    color: rgb(177, 163, 163);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* -------------- Main container 1, 2 ---------------- */
+.main-container1 {
+    background-color: rgb(228, 227, 227);
+    height: 160vh;
+}
+
+.main-container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    margin-top: 88px;
+}
+
+/* ------------------- Container 4 ------------ */
+.container4 h3 {
+    text-transform: uppercase;
+    font-family: "Caveat", cursive;
+    font-size: 3vw;
+    line-height: 9vh;
+    color: #3f3838;
+}
+
+.container4 p {
+    font-family: "Roboto", sans-serif;
+    line-height: 3.1vh;
+}
+
+.container4 span {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.container4 {
+    width: 30vw;
+    margin-top: 23vh;
+}
+
+.watch-icon {
+    margin-left: 1vw;
+}
+
+/* ---------------------------------- */
+.fa-circle-play {
+    font-size: 1.5vw;
+    color: rgb(211, 6, 6);
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(192, 7, 7);
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ------------ Container 5 ----------- */
+.container5 {
+    margin-top: 6vh;
+}
+
+/* -------------- Card 1 ----------- */
+.card1 {
+    background-color: rgb(192, 7, 7);
+    width: 22vw;
+    height: 45vh;
+    padding: 20px 0 0 20px;
+    margin-left: 3.2vw;
+}
+
+.card1:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+
+.card1 p:first-child {
+    color: white;
+    font-size: 2vw;
+    font-family: "Roboto";
+}
+
+.card1 p:nth-child(3) {
+    color: white;
+    padding: 0 50px 0 0;
+}
+
+
+.card1 a {
+    display: block;
+    text-align: center;
+    margin-top: 3vh;
+    color: white;
+    width: 7vw;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgb(221, 113, 113);
+    font-family: "Roboto";
+    margin-left: 5.5vw;
+}
+
+/* ------------ Card 2 -------- */
+.card2 {
+
+    width: 18vw;
+    height: 38vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.main-container3 {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.icon2 {
+    display: flex;
+    margin-left: 5vh;
+    background-color: #d1565649;
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 60px;
+    justify-content: center;
+    margin: 3vh 0 0 7vw;
+}
+
+.fa-file-lines {
+    font-size: 2vw;
+    padding: 10px;
+    color: rgb(192, 26, 26);
+}
+
+.text1 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: "Roboto";
+}
+
+.text2 {
+    color: grey;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ------------ Card 3 -------- */
+.card3 {
+
+    width: 18vw;
+    height: 38vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.icon3 {
+    display: flex;
+    margin-left: 5vh;
+    background-color: #d1565649;
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 60px;
+    justify-content: center;
+    margin: 3vh 0 0 7vw;
+}
+
+.fa-gem {
+    font-size: 2vw;
+    padding: 10px;
+    color: rgb(192, 26, 26);
+}
+
+.text3 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: "Roboto";
+}
+
+.text4 {
+    color: grey;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ------------ Card 4 ----------- */
+.card4 {
+
+    width: 18vw;
+    height: 38vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.icon4 {
+    display: flex;
+    margin-left: 5vh;
+    background-color: #d1565649;
+    width: 3.5vw;
+    height: 7vh;
+    border-radius: 60px;
+    justify-content: center;
+    margin: 3vh 0 0 7vw;
+}
+
+.fa-calculator {
+    font-size: 2vw;
+    padding: 10px;
+    color: rgb(192, 26, 26);
+}
+
+.text5 {
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: "Roboto";
+}
+
+.text6 {
+    color: grey;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ---------------- Bg Img ------------- */
+.bg-img {
+    width: 99.2vw;
+    height: 400px;
+    background-image: url("Images/stats-bg.jpg");
+}
+
+.container6 {
+    width: 99.2vw;
+    height: 400px;
+    background-color: rgba(29, 28, 28, 0.705);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.container6 div {
+    margin-top: 4vh;
+}
+
+.number1,
+.number2,
+.number3,
+.number4 {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.text7,
+.text8,
+.text9,
+.text10 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 0.9vw;
+}
+
+/* ---------- Main container ----------- */
+.main-container4 {
+    margin-top: 12vh;
+}
+
+
+/* ------------- Our menu ----------- */
+.our-menu1,
+.our-menu2,
+.our-menu3,
+.our-menu4,
+.our-menu5 {
+    display: flex;
+    justify-content: center;
+}
+
+.our-menu1,
+.our-menu4 {
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.our-menu1 {
+    color: #777171;
+}
+
+.our-menu2 {
+    font-family: "Caveat", cursive;
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 12vh;
+}
+
+.our-menu3 {
+    margin-top: 7vh;
+    font-family: "Roboto";
+}
+
+.our-menu3 a {
+    line-height: 6vh;
+    margin: 0 20px;
+    font-size: 1.3vw;
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+.our-menu3 a:first-child {
+    color: red;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    padding: 0;
+}
+
+.our-menu4 {
+    margin-top: 6vh;
+    color: #777171;
+}
+
+.our-menu5 {
+    color: rgb(231, 5, 5);
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.container7 {
+    margin-top: 5vh;
+}
+
+/* ------------ Img 1 ---------- */
+.img1 {
+    font-size: 1.3vw;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text11 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price {
+    color: rgb(218, 5, 5);
+    margin-left: 6.6vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* ------------ Img 2 ------------ */
+.img2 {
+    font-size: 1.3vw;
+}
+
+.img2 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text12 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price2 {
+    color: rgb(218, 5, 5);
+    margin-left: 6.5vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* ------------ Img 3 ------------- */
+.img3 {
+    font-size: 1.3vw;
+}
+
+.img3 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text13 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price3 {
+    color: rgb(218, 5, 5);
+    margin-left: 7.2vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* ------------- Imgs 2 {4} --------- */
+.imgs2 {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img4 {
+    font-size: 1.3vw;
+}
+
+.img4 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text14 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price4 {
+    color: rgb(218, 5, 5);
+    margin-left: 6.4vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* ------------- Img 4 ------------ */
+.img5 {
+    font-size: 1.3vw;
+}
+
+.img5 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text15 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price5 {
+    color: rgb(218, 5, 5);
+    margin-left: 6.8vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* -------------- Img 6 --------------- */
+.img6 {
+    font-size: 1.3vw;
+}
+
+.img6 h3 {
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 3vh;
+}
+
+.text16 {
+    color: #777171;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.price6 {
+    color: rgb(218, 5, 5);
+    margin-left: 7.2vw;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+/* ---------- Main container 5 ----------- */
+.main-container5 {
+    margin-top: 15vh;
+    background-color: rgb(228, 227, 227);
+    height: 120vh;
+}
+
+.container8 {
+    display: flex;
+    justify-content: center;
+}
+
+.text17 {
+    margin: 10vh 0 0 14vw;
+    font-family: "Roboto";
+    color: #777171;
+    text-transform: uppercase;
+}
+
+.text18 {
+    font-family: "Caveat", cursive;
+    font-size: 4vw;
+    margin-top: 1vh;
+}
+
+/* ---------- Container 9 (Cards 5) ------------ */
+.container9 {
+    display: flex;
+}
+
+.card5:hover,
+.card6:hover,
+.card7:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.card5 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 20%;
+}
+
+.card5,
+.card6,
+.card7 {
+    margin-top: 10vh;
+    margin-left: 11.3vh;
+    width: 26.05vw;
+}
+
+.cards {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.chefs-name1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.chefs-name2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #777171;
+}
+
+.text19 {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* ---------- (Cards 6) ------------ */
+.card6 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 20%;
+}
+
+.chefs-name3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.chefs-name4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #777171;
+}
+
+.text20 {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* ---------- (Cards 7) ------------ */
+.card7 img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 20%;
+}
+
+.chefs-name5 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.chefs-name6 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    color: #777171;
+}
+
+.text21 {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* ---------- Main container 6--------- */
+.main-container6 {
+    margin-top: 10vh;
+}
+
+.container10 {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #777171;
+}
+
+.container11 {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-size: 4vw;
+    margin-top: 1vh;
+}
+
+/* ------- Main container 7 -------- */
+.main-container7 {
+    margin: 5vh 0 0 5.3vw;
+    display: flex;
+    background-color: #f1f0f0c9;
+    width: 89vw;
+}
+
+.input {
+    margin: 18vh 0 0 3.5vw;
+}
+
+form input {
+    font-size: 1.2vw;
+    padding: 10px;
+    margin: 1.1vh 1.1vw;
+    border: solid 2px rgb(214, 211, 211);
+}
+
+textarea {
+    font-size: 1.1vw;
+    margin-left: 1vw;
+    margin-top: 1.1vh;
+    padding: 10px;
+    border: solid 2px rgb(228, 227, 227);
+}
+
+.button2 {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: rgb(245, 4, 4);
+    width: 12vw;
+    padding: 15px;
+    border-radius: 40px;
+    font-family: "Roboto";
+}
+
+.input div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+/* -------------- Main container 8 ------------ */
+.container14 {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.container14 p:first-child {
+    font-family: "Roboto";
+    color: #777171;
+    text-transform: uppercase;
+}
+
+.container14 p:nth-child(2) {
+    font-family: "Caveat", cursive;
+    font-size: 4vw;
+    margin-top: 1vh;
+}
+
+/* -------------- Container 15 {icon 5} ------------- */
+.container15 div {
+    display: flex;
+}
+
+.container15 {
+    margin-top: 10vh;
+    /* background-color: #cfcccc; */
+    height: 100vh;
+}
+
+.icons {
+    width: 40vw;
+    height: 6vh;
+    background-color: rgb(241, 240, 240);
+    margin-left: 4vw;
+    padding: 30px;
+}
+
+.icon5 {
+    background-color: rgb(241, 10, 10);
+    width: 3vw;
+    height: 6vh;
+    border-radius: 30px;
+}
+
+.icon5 div {
+    display: flex;
+    justify-content: center;
+}
+
+.icons div:last-child {
+    display: block;
+}
+
+.text22 {
+    color: #777171;
+    margin-left: 1vw;
+    font-size: 1.25vw;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text23 {
+    color: black;
+    margin-left: 1vw;
+    font-family: "Roboto";
+    font-size: 0.9vw;
+}
+
+.icon5 div i {
+    margin-top: 2vh;
+    margin-left: 0.9vw;
+    color: white;
+}
+
+/* ----------------- Icon 6 ------------------ */
+.icon6 {
+    background-color: rgb(241, 10, 10);
+    width: 3vw;
+    height: 6vh;
+    border-radius: 30px;
+}
+
+.icon6 div {
+    display: flex;
+    justify-content: center;
+}
+
+.icons div:last-child {
+    display: block;
+}
+
+.text24 {
+    color: #777171;
+    margin-left: 1vw;
+    font-size: 1.25vw;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text25 {
+    color: black;
+    margin-left: 1vw;
+    font-family: "Roboto";
+    font-size: 0.9vw;
+}
+
+.icon6 div i {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    color: white;
+}
+
+/* ---------------- Inputs ------------ */
+.inputs {
+    background-color: #ffffff;
+    width: 89.3vw;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    padding: 20px;
+    box-shadow: 5px 5px 20px 3px #888888;
+}
+
+.email {
+    margin-left: 3vw;
+    width: 39vw;
+}
+
+.submit {
+    background-color: rgb(231, 3, 3);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    margin-left: 39vw;
+    padding: 0.7vw 2vw;
+    margin-top: 5vh;
+}
+
+/* ---------------- Footer ------------- */
+footer {
+    width: 99vw;
+    height: 40vh;
+    background-color: #333;
+    margin-top: 10vh;
+}
+
+.follow-us p {
+    color: white;
+    font-family: "Roboto";
+    margin-top: 8vh;
+    font-size: 1.1vw;
+}
+
+.main-container9 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons2 {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.twitter i {
+    padding: 15px;
+    color: white;
+}
+
+.twitter {
+    border-radius: 50px;
+    border: solid 1px white;
+}
+
+.facebook {
+    border-radius: 50px;
+    border: solid 1px white;
+    margin-left: 10px;
+}
+
+.facebook i {
+    padding: 15px;
+    color: white;
+}
+
+.instagram {
+    border-radius: 50px;
+    border: solid 1px white;
+    margin-left: 10px;
+}
+
+.instagram i {
+    padding: 15px;
+    color: white;
+}
+
+.linkedin {
+    border-radius: 50px;
+    border: solid 1px white;
+    margin-left: 10px;
+}
+
+.linkedin i {
+    padding: 15px;
+    color: white;
+}
+
+/* ------------- Address ---------------- */
+.address {
+    margin-top: 4vw;
+}
+
+.address i {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.address span {
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.1vw;
+}
+
+.address div {
+    margin-top: 1.8vh;
+    color: rgb(212, 207, 207);
+    font-family: "Roboto";
+}
+
+/* --------------- Reservation ------------ */
+.reservation {
+    margin-top: 4vw;
+}
+
+.reservation i {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.reservation span {
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.1vw;
+}
+
+.reservation div {
+    margin-top: 1.8vh;
+    color: rgb(212, 207, 207);
+    font-family: "Roboto";
+}
+
+/* ------------- Opening Hours ------------ */
+.opening-hours {
+    margin-top: 4vw;
+}
+
+.opening-hours i {
+    font-size: 1.2vw;
+    color: white;
+}
+
+.opening-hours span {
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.1vw;
+}
+
+.opening-hours div {
+    margin-top: 1.8vh;
+    color: rgb(212, 207, 207);
+    font-family: "Roboto";
+}
+
+.autor {
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.up a {
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    float: right;
+    margin: 0 15px;
+    border-radius: 30px;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myDiv{
+    margin-top: 10vh;
+    display: grid;
+    justify-content: center;
+}
+
+/* ---------- main-container --------- */
+.main-container{
+    background-color: #333;
+    padding: 13px;
+}
+
+/* ---------- Container --------- */
+.container{
+    display: grid;
+    gap: 7px;
+    grid-template-areas: 
+    "a b b c c"
+    "a d e e f"
+    "g d e e f"
+    "g h h p f";
+    width: 50vw;
+    height: 50vh;
+}
+
+.container div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+}
+
+.container .a{
+    grid-area: a;
+    background-color: red;
+}
+
+.container .b{
+    grid-area: b;
+    background-color: rgb(20, 192, 245);
+}
+
+.container .c{
+    grid-area: c;
+    background-color: rgb(215, 218, 42);
+}
+
+.container .d{
+    grid-area: d;
+    background-color: rgb(215, 218, 42);
+}
+
+.container .e{
+    grid-area: e;
+    background-color: rgb(216, 216, 194);
+}
+
+.container .f{
+    grid-area: f;
+    background-color: red;
+}
+
+.container .g{
+    grid-area: g;
+    background-color: rgb(216, 216, 194);
+}
+
+.container .h{
+    grid-area: h;
+    background-color: red;
+}
+
+.container .p{
+    grid-area: p;
+    background-color: rgb(20, 192, 245);
+}
+
+a{
+    margin-top: 10vh;
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+}

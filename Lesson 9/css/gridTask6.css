@@ -1,0 +1,103 @@
+/* -------- Main Container --------- */
+.main-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+/* ---------- Container ---------- */
+.container {
+    display: grid;
+    gap: 7px;
+    grid-template-areas:
+        "one one one one"
+        "two three three four"
+        "five three three six"
+        "five seven seven seven";
+    width: 50vw;
+    height: 50vh;
+}
+
+.container div:nth-child(odd) {
+    background-color: rgb(231, 201, 33);
+}
+
+.container div:nth-child(even) {
+    background-color: rgba(196, 20, 20, 0.795);
+}
+
+.container .one {
+    grid-area: one;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .two {
+    grid-area: two;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .three {
+    grid-area: three;
+    display: grid;
+    justify-content: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .four {
+    grid-area: four;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .five {
+    grid-area: five;
+    display: grid;
+    justify-content: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .six {
+    grid-area: six;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+.container .seven {
+    grid-area: seven;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+a{
+    margin-top: 10vh;
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+}

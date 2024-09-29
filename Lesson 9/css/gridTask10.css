@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Main Container -------------- */
+.main-container{
+    display: grid;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+
+/* ----------- Continer ---------- */
+.container{
+    display: grid;
+    grid-template-areas: 
+    "heading-one heading-two heading-three heading-four"
+    "heading-five heading-six heading-six heading-seven"
+    "heading-five heading-eight heading-nine heading-seven"
+    ;
+    width: 70vw;
+    height: 70vh;
+}
+
+.container div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .heading-one{
+    grid-area: heading-one;
+    background-color: #333;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container .heading-one div{
+    width:15vw;
+}
+
+.container .heading-one div p:nth-child(1){
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "Roboto";
+    line-height: 6vh;
+}
+
+.container .heading-two{
+    grid-area: heading-two;
+    background-color: #2798cc;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.container .heading-three{
+    grid-area: heading-three;
+    background-color: #22d188;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.container .heading-four{
+    grid-area: heading-four;
+    background-color: #333;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.container .heading-five{
+    grid-area: heading-five;
+    background-color: #5c7885;
+    color: white;
+}
+
+.container .heading-five div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 6vh;
+    font-family: "Roboto";
+}
+
+.container .heading-six{
+    grid-area: heading-six;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.heading-six div{
+    width: 30vw;
+}
+
+.container .heading-six div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 6vh;
+    font-family: "Roboto";
+}
+
+.container .heading-seven{
+    grid-area: heading-seven;
+    background-color: #5c7885;
+    color: white;
+}
+
+.heading-seven div{
+    width: 15vw;
+}
+
+.container .heading-seven div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 6vh;
+    font-family: "Roboto";
+}
+
+.container .heading-eight{
+    grid-area: heading-eight;
+    background-color: #2798cc;
+    color: white;
+}
+
+.container .heading-eight div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 6vh;
+    font-family: "Roboto";
+}
+
+.heading-eight div{
+    width: 15vw;
+}
+
+.container .heading-nine{
+    grid-area: heading-nine;
+    background-color: #22d188;
+    color: white;
+}
+
+.container .heading-nine div p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 6vh;
+    font-family: "Roboto";
+}
+
+.heading-nine div{
+    width: 17vw;
+}

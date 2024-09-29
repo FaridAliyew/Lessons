@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <h1>Register</h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 login-container">
+                <div class="card">
+                    <div class="card-header">Register</div>
+                    <div class="card-body">
+                        <form onsubmit="myFunc()">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                            </div> <br>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div> <br>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="surname" placeholder="Surname"> <br>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="tel" placeholder="Phone number"> <br>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email"> <br>
+                            </div>
+                            <label for="">Gender</label><br>
+                            <input type="radio" id="man" name="gender"> <label for="man">Man</label><br>
+                            <input type="radio" id="women" name="gender"> <label for="women">Women</label><br><br>
+
+                            <label for="date">Birth date</label><br>
+                            <input type="date" id="date"> <br><br>
+
+                            <label for="address">Address</label> <br>
+                            <textarea name="address" id="address" cols="20" rows="6"></textarea><br><br>
+
+                            <label for="select">Country</label><br>
+                            <select name="select" id="select">
+                                <option value="">Lorem.</option>
+                                <option value="">Lorem, ipsum.</option>
+                                <option value="">Lorem, ipsum dolor.</option>
+                            </select> <br><br>
+
+                            <label for="">Interests</label> <br>
+                            <input type="checkbox" id="towalk"> <label for="towalk">To walk</label>
+                            <input type="checkbox" id="listentomusic"> <label for="listentomusic">Listen to
+                                music</label>
+                            <input type="checkbox" id="readthebook"> <label for="readthebook">Read the
+                                book</label><br><br>
+
+                            <label for="img">Upload img</label><br>
+                            <input type="file" id="img"> <br><br>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                                <br>
+                            </div>
+
+                            <input type="submit" value="Register" class="submit">
+                            <a href="Login.html">give up</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

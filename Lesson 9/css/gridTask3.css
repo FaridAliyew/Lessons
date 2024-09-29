@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myDiv{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- Main Container ----------- */
+.main-conatiner{
+    background-color: #e4b99d;
+    padding: 15px;
+    width: 60vw;
+}
+
+/* -------------- Container ----------- */
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 8vh 50vh 20vh 8vh;
+}
+
+.container .header{
+    background-image: linear-gradient(to right , rgb(165, 9, 185), rgb(239, 255, 10));
+    grid-row: 1;
+    grid-column: 1 /span 3 ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";
+}
+
+.container .sidebar{
+    background-color: rgb(79, 202, 161);
+    grid-row: 2 / span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";  
+}
+
+.container .content-one{
+    background-image: linear-gradient(to right , rgb(12, 37, 182), rgb(196, 196, 186));
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";
+}
+
+.container .content-two{
+    background-image: linear-gradient(to right , rgb(12, 37, 182), rgb(196, 196, 186));
+    grid-row: 3;
+    grid-column: 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";
+}
+
+.container .content-three{
+    background-image: linear-gradient(to right , rgb(12, 37, 182), rgb(196, 196, 186));
+    grid-row: 3;
+    grid-column: 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";
+}
+
+.container .footer{
+    background-image: linear-gradient(to right , rgb(165, 9, 185), rgb(239, 255, 10));
+    grid-row: 4;
+    grid-column: 1/ span 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 5px black;
+    font-size: 1.3vw;
+    font-family: "Roboto";
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-style: italic;
+}

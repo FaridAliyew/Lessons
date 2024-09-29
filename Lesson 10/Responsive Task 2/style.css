@@ -1,0 +1,107 @@
+* {
+    scrollbar-width: thin;
+}
+
+/* ---------------- Header ------------- */
+header {
+    display: flex;
+    margin-top: 12px;
+}
+
+header .box-1 {
+    background-color: rgb(0, 208, 255);
+    width: 350px;
+    height: 100px;
+}
+
+header .box-2 {
+    background-color: rgb(244, 162, 39);
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+section .box-3 {
+    background-color: rgb(255, 85, 0);
+    width: 100%;
+    height: 370px;
+    margin-top: 15px;
+}
+
+
+/* ------------------ Section --------------- */
+section .container {
+    display: flex;
+    margin-top: 15px;
+}
+
+section .container .box-4 {
+    background-color: rgb(239, 239, 33);
+    width: 33%;
+    height: 220px;
+}
+
+section .container .box-5 {
+    background-color: rgb(239, 239, 33);
+    width: 33%;
+    height: 220px;
+    margin-left: 10px;
+}
+
+section .container .box-6 {
+    background-color: rgb(239, 239, 33);
+    width: 33%;
+    height: 220px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: palevioletred;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+
+/* -------------- Tablet ------------ */
+@media (max-width: 820px) {
+    header .box-1 {
+        width: 250px;
+        height: 200px;
+    }
+
+    header .box-2 {
+        height: 200px;
+    }
+
+    section .container .box-4, .box-5,.box-6{
+        height: 400px !important;
+    }
+
+    section .box-3{
+        height: 410px;
+    }
+}
+
+
+/* ------------- Phone Responsive ---------- */
+@media (max-width:480px) {
+    header .box-1 {
+        width: 160px;
+    }
+
+    section .container {
+        flex-direction: column;
+    }
+
+    .container .box-5,
+    .box-6 {
+        margin-top: 15px;
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    .container .box-4 {
+        width: 100% !important;
+    }
+}

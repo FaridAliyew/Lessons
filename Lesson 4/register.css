@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#listentomusic,
+#readthebook {
+    margin-left: 30px;
+}
+
+.submit {
+    background-color: rgb(5, 120, 228);
+    border-color: rgb(39, 103, 185);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

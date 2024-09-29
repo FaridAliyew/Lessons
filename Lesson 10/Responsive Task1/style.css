@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    scrollbar-width: thin;
+}
+
+
+/* ---------------- Header ------------- */
+header p {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+
+header nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+nav form label {
+    padding-left: 15px;
+}
+
+/* --------------- Section -------------- */
+section {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 200px 200px 150px;
+    padding: 40px;
+    row-gap: 10px;
+}
+
+
+section h1 {
+    grid-row: 1;
+    grid-column: 1/ span 3;
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+}
+
+
+section .img {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/ span 3;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 200, 200);
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section .copy-1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3;
+    grid-column: 1;
+    background-color: rgb(201, 198, 198);
+    color: white;
+    font-size: 30px;
+}
+
+section .container {
+    grid-row: 3;
+    grid-column: 2;
+    border-left: solid 2px rgb(192, 188, 188);
+    border-right: solid 2px rgb(192, 188, 188);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.container p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+section .copy-2 {
+    grid-row: 3;
+    grid-column: 3;
+    background-color: rgb(201, 198, 198);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+section .ad-space {
+    grid-row: 4;
+    grid-column: 1 /span 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    border: solid 1px grey;
+    font-size: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* ---------------- Responsive phone ------------- */
+
+@media (max-width: 480px) {
+
+    /* ------------- Header -------------- */
+    header nav {
+        flex-direction: column;
+    }
+
+    nav form label{
+        padding-left:0px;
+    }
+
+    nav .navigation{
+        font-size: 20px;
+    }
+
+    nav .navigation, form{
+        text-align: center;
+        line-height: 30px;
+    }
+
+    form input{
+        font-size: 15px;
+    }
+
+    form label{
+        font-size: 20px;
+    }
+    /* -------------- Section ----------- */
+    section{
+        grid-template-rows: auto 100px 250px 250px 250px 70px;
+        margin-top: -30px;
+        row-gap: 20px;
+    }
+
+    section h1{
+        font-size: 30px;
+    }
+
+    section .img{
+        font-size: 30px;
+    }
+
+    section .copy-1{
+        grid-row: 3;
+        grid-column: 1/ span 3;
+        font-size: 35px;
+    }
+
+    section .container{
+        grid-row: 4;
+        grid-column: 1/ span 3;
+        font-size: 20px;
+        border-top: solid 2px rgb(113, 113, 113);
+        border-left: solid 2px white;
+        border-right: solid 2px white;
+        border-bottom: solid 2px rgb(113, 113, 113);
+    }
+
+    section .container div p, button{
+        font-size: 30px;
+    }
+
+    section .copy-2{
+        grid-row: 5;
+        grid-column: 1/span 3;
+        font-size: 35px;
+    }
+
+    section .ad-space{
+        grid-row: 6;
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 25px;
+    }
+}
