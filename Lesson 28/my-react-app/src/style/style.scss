@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import "./mixins";
+
+* {
+    scrollbar-width: thin;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.text-one {
+    font-size: 1.5rem;
+}
+
+.text-two {
+    font-size: 3rem;
+}
+
+// ---------- header----------
+.header {
+    background-image: url("../imgs/header-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .navbar-brand {
+        font-family: "Montserrat Alternates", sans-serif;
+        color: #ffc800 !important;
+    }
+
+    .row {
+        .text-one {
+            font-size: 40px;
+            margin-top: 190px;
+            font-style: italic;
+        }
+
+        .text-two {
+            font-size: 60px;
+            margin-top: 20px;
+        }
+
+        .my-button {
+            @include btn();
+        }
+
+        li {
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+}
+
+// ---------- Services -----------
+.services {
+    margin-top: 50px;
+
+    .my-services {
+        margin-top: 90px;
+
+        span {
+            background-color: rgb(255, 200, 0);
+            padding: 40px 21px 40px 20px;
+            border-radius: 50%;
+
+            .basket {
+                font-size: 70px;
+            }
+
+            .laptop {
+                font-size: 70px;
+            }
+
+            .lock {
+                font-size: 70px;
+            }
+        }
+    }
+}
+
+// --------- Portfolio ----------
+.portfolio {
+    margin-top: 190px;
+}
+
+// ------ Team -------
+.team {
+    margin-top: 130px;
+
+    .container {
+        .teams {
+            margin-top: 85px;
+        }
+
+        .team1 {
+            @include teams();
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .team2 {
+            @include teams();
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .team3 {
+            @include teams();
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        span {
+            @include span();
+        }
+
+        .img-brand {
+            height: 2.75rem;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .logos {
+            margin-top: 200px;
+        }
+    }
+}
+
+// ----- contactUs -----
+.contactUs {
+    background-image: url("../imgs/map-image.png");
+    background-color: #212529;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .text {
+        margin-top: 100px;
+    }
+
+    input {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .btn {
+        @include btn();
+    }
+}
+
+// ------ footer -------
+.footer {
+    .my-footer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    span.icon {
+        @include span();
+    }
+}
